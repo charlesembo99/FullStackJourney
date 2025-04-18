@@ -1,0 +1,90 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    
+}
+header{
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  top: 0;
+  left: 0;
+  height: 69px;
+  z-index: 1000;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul > li{
+  padding: 10px;
+  list-style-type: none;
+  margin-right: 10px;
+}
+.logo{
+  height: 50px;
+  margin-left: 10px;
+}
+ul li > a {
+  color: seashell;
+  text-decoration: underline;
+}
+.hero{
+  height:700px;
+  width:1200px;
+  position:relative;
+  background-size: cover;
+  margin:  69px auto 0 auto;
+  background-image: url('./images/img-bedford-bizarre.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.content{
+  background-color: black;
+  width: 100%;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.tea img{
+  width: 300px;
+  height: 200px;
+  
+}
+.location{
+  background-image: url('./images/img-locations-background.jpg');
+  flex-direction: row;
+  height: 500px;
+}
+.place{
+  width: 300px;
+  height: 220px;
+  margin: 15px 40px;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+footer{
+  height: 200px;
+}
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+}
